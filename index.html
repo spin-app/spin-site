@@ -3,13 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Spin!</title>
-  <meta http-equiv="refresh" content="0; url=privacy/">
+  <title>Spin! · A listening diary for vinyl</title>
+  <meta name="description" content="Spin! is a listening diary for vinyl collectors: log every record you play, follow along track by track, and watch your stats, streaks and badges grow.">
+  <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="assets/site.css">
+  <!-- How the link looks when it's shared in a chat or a post. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spin! · A listening diary for vinyl">
+  <meta property="og:description" content="Log every record you play. Stats, streaks, badges and your year in records.">
+  <meta property="og:url" content="https://spin-app.github.io/spin-site/">
+  <meta property="og:image" content="https://spin-app.github.io/spin-site/assets/icon-512.png">
 </head>
 <body>
-<main>
-  <p><a href="privacy/">Spin! privacy policy</a></p>
+<main class="home">
+  <img class="home-icon" src="assets/icon.png" alt="" width="72" height="72">
+
+  <h1>Your records,<br>your spins.</h1>
+  <p class="lede">
+    Spin! is a listening diary for vinyl collectors. Put a record on, tap Spin!, and every play
+    becomes part of your story: what you reach for, how often, and when.
+  </p>
+
+  <p class="home-cta">
+    <!-- During the closed test: Play's opt-in page. At launch, point it at the store listing
+         (https://play.google.com/store/apps/details?id=com.gxapps.spin) and say "Get it on Google Play". -->
+    <a class="button" href="https://play.google.com/apps/testing/com.gxapps.spin">Join the beta on Google Play</a>
+    <span class="home-cta-note">Android now, iPhone later. Free.</span>
+  </p>
+
+  <h2>What it does</h2>
+  <dl class="features">
+    <dt>Log a spin in one tap</dt>
+    <dd>Pick the record, drop the needle. Now Spinning follows along track by track and nudges you when it's time to flip.</dd>
+
+    <dt>Your shelf, in one place</dt>
+    <dd>Add records by barcode or by hand, or bring your whole Discogs collection over in one go.</dd>
+
+    <dt>Stats that mean something</dt>
+    <dd>Most-played albums and artists, listening time, streaks, your favourite hour to spin.</dd>
+
+    <dt>Gold records</dt>
+    <dd>Badges for streaks, deep cuts, playing every album in a year, and a few surprises.</dd>
+
+    <dt>Your year in records</dt>
+    <dd>Every December, a recap of your listening year, ready to share.</dd>
+
+    <dt>What you've spent</dt>
+    <dd>Note what each record cost, gifts included, and see your collection add up.</dd>
+  </dl>
+
+  <h2>Yours, and private</h2>
+  <p>
+    Your library stays on your device. Signing in is optional, and only syncs your records across
+    your devices. No ads, no tracking, and your data is never sold.
+  </p>
+
+  <footer>
+    <a href="privacy/">Privacy policy</a> · <a href="delete-account/">Delete your account</a> ·
+    <a href="mailto:spin.app@outlook.com">spin.app@outlook.com</a>
+    <br>Record data provided by <a href="https://www.discogs.com">Discogs</a>. This application uses
+    Discogs' API but is not affiliated with, sponsored or endorsed by Discogs. 'Discogs' is a
+    trademark of Zink Media, LLC.
+  </footer>
 </main>
 </body>
 </html>

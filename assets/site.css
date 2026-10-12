@@ -122,3 +122,72 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+/* ---------- Home page: the same quiet column, a little larger at the top ---------- */
+
+.home-icon {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 28px;
+  border-radius: 18px;
+}
+
+.home h1 {
+  font-size: clamp(2.2rem, 8vw, 3.2rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  margin: 16px 0 28px;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  margin-bottom: 8px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 999px;
+  background: var(--accent);
+  padding: 12px 22px;
+  color: #1b1408;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.button:hover {
+  filter: brightness(1.06);
+}
+
+.button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.home-cta-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.features {
+  margin: 0;
+}
+
+.features dt {
+  margin-top: 18px;
+  font-weight: 650;
+}
+
+.features dd {
+  margin: 2px 0 0;
+  color: var(--muted);
+}
